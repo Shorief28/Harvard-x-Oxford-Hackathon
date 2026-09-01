@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register your interest in judging or mentoring — Harvard × Oxford Hackathon</title>
+<meta name="description" content="Register your interest in judging or mentoring at the Harvard × Oxford healthcare hackathon. For clinicians, researchers, founders and investors.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/hack.css?v=3">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- HEADER — duplicated on index.html, participate.html, mentor.html and
+     sponsor.html. Change one, change all four. -->
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html">
+      Harvard <span class="x" aria-hidden="true">×</span><span class="vh">by</span> Oxford
+      <span class="sub">Hackathon</span>
+    </a>
+
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mainnav">
+      <span class="bars" aria-hidden="true"></span> Menu
+    </button>
+
+    <nav class="mainnav" id="mainnav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="participate.html">Participate</a></li>
+        <li><a href="mentor.html" aria-current="page">Judge or mentor</a></li>
+        <li class="nav-cta"><a href="sponsor.html">Sponsor</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Judge or mentor</p>
+    <h1>Give a team a few hours of your experience</h1>
+    <p class="lede">Mentors support teams during the event. Judges assess the final pitches. This
+    registers your interest — it is not a commitment at this stage.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap form-layout">
+    <div>
+      <h2 class="vh">Judge and mentor interest form</h2>
+
+      <form class="form" id="mentor-form" method="post"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdmeKwU0fg0UJ15Wd06GlF_wZmkQAwomxuWlI0DnRak4Vefjg/formResponse"
+            data-thanks="mentor-thanks">
+        <input type="hidden" name="fvv" value="1">
+        <input type="hidden" name="pageHistory" value="0">
+
+        <div class="field">
+          <label for="m-name">Full name <span class="req">Required</span></label>
+          <input id="m-name" name="entry.2101995780" type="text" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="m-title">Preferred title <span class="req">Required</span></label>
+          <p class="hint" id="m-title-hint">For example Dr, Professor, Mx, Ms, Mr.</p>
+          <input id="m-title" name="entry.900978874" type="text" aria-describedby="m-title-hint" required>
+        </div>
+
+        <div class="field">
+          <label for="m-email">Email address <span class="req">Required</span></label>
+          <input id="m-email" name="entry.1687136381" type="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="m-role">Current role or job <span class="req">Required</span></label>
+          <input id="m-role" name="entry.1524150950" type="text" autocomplete="organization-title" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>University or affiliation <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.1458099363" value="Harvard University" required> Harvard University</label>
+              <label class="opt"><input type="radio" name="entry.1458099363" value="University of Oxford"> University of Oxford</label>
+              <label class="opt"><input type="radio" name="entry.1458099363" value="__other_option__"> Other</label>
+            </div>
+            <div class="opt-other">
+              <label for="m-uni-other">If you chose other, which organisation?</label>
+              <input id="m-uni-other" name="entry.1458099363.other_option_response" type="text">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="m-zone">Country and time zone <span class="req">Required</span></label>
+          <p class="hint" id="m-zone-hint">So we can schedule sessions you can actually attend.</p>
+          <input id="m-zone" name="entry.788989180" type="text" aria-describedby="m-zone-hint" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>I would like to serve as <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.1702248812" value="Judge" required> Judge</label>
+              <label class="opt"><input type="radio" name="entry.1702248812" value="Mentor"> Mentor</label>
+              <label class="opt"><input type="radio" name="entry.1702248812" value="Speaker"> Speaker</label>
+              <label class="opt"><input type="radio" name="entry.1702248812" value="Panelist"> Panellist</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="m-bio">Brief bio <span class="req">Required</span></label>
+          <p class="hint" id="m-bio-hint">A few lines. If you agree below, we may use this on the event
+          materials.</p>
+          <textarea id="m-bio" name="entry.21904184" rows="5" aria-describedby="m-bio-hint" required></textarea>
+        </div>
+
+        <div class="field">
+          <fieldset data-group-required="Please choose at least one area of expertise.">
+            <legend>Areas of expertise <span class="req">Required</span></legend>
+            <p class="hint">Choose as many as apply.</p>
+            <div class="opts">
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Global health policy"> Global health policy</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Epidemiology / outbreak response"> Epidemiology and outbreak response</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Clinical medicine"> Clinical medicine</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Digital health &amp; AI"> Digital health and AI</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Health economics"> Health economics</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Implementation science"> Implementation science</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Product &amp; design"> Product and design</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="Research methods"> Research methods</label>
+              <label class="opt"><input type="checkbox" name="entry.1558559881" value="__other_option__"> Other</label>
+            </div>
+            <div class="opt-other">
+              <label for="m-exp-other">If you chose other, please say</label>
+              <input id="m-exp-other" name="entry.1558559881.other_option_response" type="text">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="m-profile">Link to your profile <span class="req">Required</span></label>
+          <p class="hint" id="m-profile-hint">LinkedIn, ORCID or Google Scholar.</p>
+          <input id="m-profile" name="entry.1272362978" type="url" placeholder="https://"
+                 aria-describedby="m-profile-hint" required>
+        </div>
+
+        <!-- The availability question has been removed from this page. It is
+             still question 11 in the Google Form (entry.1813666338) and is
+             still marked REQUIRED there, so until it is deleted or made
+             optional in Google Forms, Google will reject every submission from
+             this page and nothing will reach the response sheet. -->
+
+        <div class="field">
+          <fieldset data-group-required="Please answer whether you have judged or mentored before.">
+            <legend>Have you judged or mentored a hackathon before? <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="checkbox" name="entry.487737107" value="Yes"> Yes</label>
+              <label class="opt"><input type="checkbox" name="entry.487737107" value="No"> No</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="m-followon">Would you be open to offering follow-on support to teams? <span class="req">Required</span></label>
+          <input id="m-followon" name="entry.504835974" type="text" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Consent <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="checkbox" name="entry.305124683" value="I consent to my details being stored for event organisation." required> I consent to my details being stored for event organisation</label>
+              <label class="opt"><input type="checkbox" name="entry.305124683" value="I consent to my name, photo, and bio appearing on event materials."> I consent to my name, photo and bio appearing on event materials</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="m-else">Anything else, or questions for the organising team? <span class="opt-tag">Optional</span></label>
+          <input id="m-else" name="entry.915647321" type="text">
+        </div>
+
+        <div class="form-actions">
+          <button class="btn btn-fill" type="submit">Send my details</button>
+          <p>Your answers go straight to the organising team.</p>
+        </div>
+      </form>
+
+      <div class="thanks" id="mentor-thanks" hidden>
+        <h2>Thank you — we have your details</h2>
+        <p>We will be in touch about judging, mentoring and the schedule nearer the time.</p>
+        <p><a href="index.html">Back to the hackathon overview</a></p>
+      </div>
+    </div>
+
+    <aside class="aside">
+      <h2>What we are asking for</h2>
+
+      <h3>Mentors</h3>
+      <p>Time with teams during the event — sense-checking an idea, pointing at the obstacle they
+      have not seen yet, and being honest about what would happen in a real clinical setting.</p>
+
+      <h3>Judges</h3>
+      <p>Assessing the final pitches against innovation, feasibility, clinical relevance and equity.</p>
+
+      <h3>Who we are looking for</h3>
+      <ul>
+        <li>Clinicians and researchers</li>
+        <li>Engineers, designers and product people</li>
+        <li>Policy, health economics and implementation</li>
+        <li>Founders, operators and investors</li>
+      </ul>
+
+      <h3>Not the right form?</h3>
+      <p><a href="participate.html">Taking part</a> · <a href="sponsor.html">Sponsorship</a></p>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER — duplicated on all four pages. Change one, change all four. -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <h2>Harvard <span class="x" aria-hidden="true">×</span> Oxford Hackathon</h2>
+        <p>Winter 2027. Dates and venue to be confirmed.</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <!-- CONTACT: the shared address goes here, as a mailto: link. -->
+        <p>A shared address for the hackathon is coming soon.</p>
+      </div>
+      <div>
+        <h2>Register</h2>
+        <ul>
+          <li><a href="participate.html">Interested in participating</a></li>
+          <li><a href="mentor.html">Interested in judging or mentoring</a></li>
+          <li><a href="sponsor.html">Become a sponsor</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">Run by Students for Global Health Oxford and Harvard VISION Global Health
+    Society. Not an official publication of either university.</p>
+  </div>
+</footer>
+
+<script src="assets/hack.js?v=3"></script>
+</body>
+</html>

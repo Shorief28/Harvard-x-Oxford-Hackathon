@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Become a sponsor — Harvard × Oxford Hackathon</title>
+<meta name="description" content="Sponsor the Harvard × Oxford healthcare hackathon. Partnership tiers from £200 to £3,000, plus in-kind support. Tell us how you would like to support the event.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/hack.css?v=3">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- HEADER — duplicated on index.html, participate.html, mentor.html and
+     sponsor.html. Change one, change all four. -->
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html">
+      Harvard <span class="x" aria-hidden="true">×</span><span class="vh">by</span> Oxford
+      <span class="sub">Hackathon</span>
+    </a>
+
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mainnav">
+      <span class="bars" aria-hidden="true"></span> Menu
+    </button>
+
+    <nav class="mainnav" id="mainnav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="participate.html">Participate</a></li>
+        <li><a href="mentor.html">Judge or mentor</a></li>
+        <li class="nav-cta"><a href="sponsor.html" aria-current="page">Sponsor</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Become a sponsor</p>
+    <h1>Back the pipeline from challenge to deployment</h1>
+    <p class="lede">Tell us who you are and how you would like to support the hackathon. We will
+    come back to you with a short conversation, not a long deck.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap form-layout">
+    <div>
+      <h2 class="vh">Sponsorship enquiry form</h2>
+
+      <!-- ============================================================
+           This form posts straight into the Google Form
+           "Become a sponsor", the same way participate.html and mentor.html
+           post into theirs. Answers land in that form's response sheet.
+
+           Each name= below is the entry id of the matching question. If you
+           add, remove or reorder a question in Google Forms, update the
+           matching field here or that answer is dropped silently. To find the
+           ids: open the live form, view page source, search for "entry." —
+           they appear in question order.
+
+           The radio values must match the Google Form's option text character
+           for character, em dashes included, or Google rejects the answer.
+
+           To be told about new enquiries: in the form's Responses tab, open
+           the three-dot menu and switch on "Get email notifications for new
+           responses".
+           ============================================================ -->
+
+      <form class="form" id="sponsor-form" method="post"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSfd3KHqvEds8RmG3E28Yvl6YmZ85TPpOoGHiVw8ypMLGvX__g/formResponse"
+            data-thanks="sponsor-thanks">
+        <input type="hidden" name="fvv" value="1">
+        <input type="hidden" name="pageHistory" value="0">
+
+        <div class="field">
+          <label for="s-org">Organisation <span class="req">Required</span></label>
+          <input id="s-org" name="entry.1239779420" type="text" autocomplete="organization" required>
+        </div>
+
+        <div class="field">
+          <label for="s-name">Your name <span class="req">Required</span></label>
+          <input id="s-name" name="entry.1382594853" type="text" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="s-email">Work email <span class="req">Required</span></label>
+          <input id="s-email" name="entry.1030671310" type="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="s-role">Your role <span class="req">Required</span></label>
+          <input id="s-role" name="entry.82118045" type="text" autocomplete="organization-title" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Tier you are interested in <span class="req">Required</span></legend>
+            <p class="hint">Nothing here is binding — it just tells us which conversation to have.
+            The <a href="index.html#sponsors">full tier breakdown is on the overview page</a>.</p>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.1376881582" value="Community — $250 / £200" required> Community — $250 / £200</label>
+              <label class="opt"><input type="radio" name="entry.1376881582" value="Bronze — $1,000 / £750"> Bronze — $1,000 / £750</label>
+              <label class="opt"><input type="radio" name="entry.1376881582" value="Silver — $2,500 / £2,000"> Silver — $2,500 / £2,000</label>
+              <label class="opt"><input type="radio" name="entry.1376881582" value="Gold — $4,000 / £3,000"> Gold — $4,000 / £3,000</label>
+              <label class="opt"><input type="radio" name="entry.1376881582" value="In-kind — venue, food, credits, prizes or mentors"> In-kind — venue, food, credits, prizes or mentors</label>
+              <label class="opt"><input type="radio" name="entry.1376881582" value="Not decided yet"> Not decided yet</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="s-support">How would you like to support the hackathon? <span class="req">Required</span></label>
+          <p class="hint" id="s-support-hint">Funding, mentors, judges, a venue, cloud or software
+          credits, prizes, a challenge you would like teams to work on — and anything you would want
+          in return.</p>
+          <textarea id="s-support" name="entry.618264078" rows="6"
+                    aria-describedby="s-support-hint" required></textarea>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Consent <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="checkbox" name="entry.869720023" value="I consent to my details being stored and used to discuss sponsorship" required> I consent to my details being stored and used to discuss sponsorship</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn btn-fill" type="submit">Send my enquiry</button>
+          <p>Your answers go straight to the organising team.</p>
+        </div>
+      </form>
+
+      <div class="thanks" id="sponsor-thanks" hidden>
+        <h2>Thank you — we have your enquiry</h2>
+        <p>One of the organisers will come back to you shortly.</p>
+        <p><a href="index.html">Back to the hackathon overview</a></p>
+      </div>
+    </div>
+
+    <aside class="aside">
+      <h2>What sponsors get</h2>
+
+      <h3>Visibility</h3>
+      <p>Brand presence across the deck, the website and event communications.</p>
+
+      <h3>Access</h3>
+      <p>Mentor, judge and meet Oxford and Harvard student teams.</p>
+
+      <h3>Impact</h3>
+      <p>Help prototypes move beyond the demo and into clinical workflows.</p>
+
+      <h3>Tiers</h3>
+      <ul>
+        <li>Community — $250 / £200</li>
+        <li>Bronze — $1,000 / £750</li>
+        <li>Silver — $2,500 / £2,000</li>
+        <li>Gold — $4,000 / £3,000, and Gold sponsors can name a prize or a challenge</li>
+        <li>In-kind — food, venue, credits, prizes, mentors</li>
+      </ul>
+      <p><a class="btn btn-ghost" href="index.html#sponsors">See what each tier includes</a></p>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER — duplicated on all four pages. Change one, change all four. -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <h2>Harvard <span class="x" aria-hidden="true">×</span> Oxford Hackathon</h2>
+        <p>Winter 2027. Dates and venue to be confirmed.</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <!-- CONTACT: the shared address goes here, as a mailto: link. -->
+        <p>A shared address for the hackathon is coming soon.</p>
+      </div>
+      <div>
+        <h2>Register</h2>
+        <ul>
+          <li><a href="participate.html">Interested in participating</a></li>
+          <li><a href="mentor.html">Interested in judging or mentoring</a></li>
+          <li><a href="sponsor.html">Become a sponsor</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">Run by Students for Global Health Oxford and Harvard VISION Global Health
+    Society. Not an official publication of either university.</p>
+  </div>
+</footer>
+
+<script src="assets/hack.js?v=3"></script>
+</body>
+</html>

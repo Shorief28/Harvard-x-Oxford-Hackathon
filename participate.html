@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register your interest in participating — Harvard × Oxford Hackathon</title>
+<meta name="description" content="Register your interest in taking part in the Harvard × Oxford healthcare hackathon. Open to Oxford and Harvard students of any subject.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/hack.css?v=3">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- HEADER — duplicated on index.html, participate.html, mentor.html and
+     sponsor.html. Change one, change all four. -->
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html">
+      Harvard <span class="x" aria-hidden="true">×</span><span class="vh">by</span> Oxford
+      <span class="sub">Hackathon</span>
+    </a>
+
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mainnav">
+      <span class="bars" aria-hidden="true"></span> Menu
+    </button>
+
+    <nav class="mainnav" id="mainnav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="participate.html" aria-current="page">Participate</a></li>
+        <li><a href="mentor.html">Judge or mentor</a></li>
+        <li class="nav-cta"><a href="sponsor.html">Sponsor</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Participate</p>
+    <h1>Register your interest in taking part</h1>
+    <p class="lede">This registers your interest — it is not a final commitment. We will follow up
+    with confirmation once places are allocated.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap form-layout">
+    <div>
+      <h2 class="vh">Participant interest form</h2>
+
+      <form class="form" id="participant-form" method="post"
+            action="https://docs.google.com/forms/d/e/1FAIpQLScSlNRQvdqGFszBHgN9eUtRKwIhepIpSF11P9p529eYO-746A/formResponse"
+            data-thanks="participant-thanks">
+        <input type="hidden" name="fvv" value="1">
+        <input type="hidden" name="pageHistory" value="0">
+
+        <div class="field">
+          <label for="p-name">Full name <span class="req">Required</span></label>
+          <input id="p-name" name="entry.1702824825" type="text" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="p-email">Email address <span class="req">Required</span></label>
+          <p class="hint" id="p-email-hint">Your university address is preferred.</p>
+          <input id="p-email" name="entry.1987812854" type="email" autocomplete="email"
+                 aria-describedby="p-email-hint" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>University <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.2041913706" value="University of Oxford" required> University of Oxford</label>
+              <label class="opt"><input type="radio" name="entry.2041913706" value="Harvard University"> Harvard University</label>
+              <label class="opt"><input type="radio" name="entry.2041913706" value="__other_option__"> Other</label>
+            </div>
+            <div class="opt-other">
+              <label for="p-uni-other">If you chose other, which institution?</label>
+              <input id="p-uni-other" name="entry.2041913706.other_option_response" type="text">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Current status <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.250441692" value="Undergraduate" required> Undergraduate</label>
+              <label class="opt"><input type="radio" name="entry.250441692" value="Postgraduate"> Postgraduate</label>
+              <label class="opt"><input type="radio" name="entry.250441692" value="MD/MBBS/BMBCH"> MD / MBBS / BMBCh</label>
+              <label class="opt"><input type="radio" name="entry.250441692" value="DPhil/PhD/Post doc"> DPhil / PhD / postdoc</label>
+              <label class="opt"><input type="radio" name="entry.250441692" value="Faculty/Staff/Industry"> Faculty, staff or industry</label>
+              <label class="opt"><input type="radio" name="entry.250441692" value="__other_option__"> Other</label>
+            </div>
+            <div class="opt-other">
+              <label for="p-status-other">If you chose other, please say</label>
+              <input id="p-status-other" name="entry.250441692.other_option_response" type="text">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="p-field">Field of study or programme <span class="req">Required</span></label>
+          <input id="p-field" name="entry.2097611378" type="text" required>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Country you will be joining from <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.58971206" value="UK" required> UK</label>
+              <label class="opt"><input type="radio" name="entry.58971206" value="USA"> USA</label>
+              <label class="opt"><input type="radio" name="entry.58971206" value="__other_option__"> Other</label>
+            </div>
+            <div class="opt-other">
+              <label for="p-country-other">If you chose other, which country?</label>
+              <input id="p-country-other" name="entry.58971206.other_option_response" type="text">
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Have you taken part in a hackathon before? <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="radio" name="entry.1775289666" value="Yes" required> Yes</label>
+              <label class="opt"><input type="radio" name="entry.1775289666" value="No"> No</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="field">
+          <label for="p-skills">What skills do you have that apply to this hackathon? <span class="req">Required</span></label>
+          <p class="hint" id="p-skills-hint">Clinical, technical, design, policy, research — anything you would bring
+          to a team.</p>
+          <textarea id="p-skills" name="entry.1868020712" rows="5" aria-describedby="p-skills-hint" required></textarea>
+        </div>
+
+        <div class="field">
+          <label for="p-linkedin">LinkedIn <span class="opt-tag">Optional</span></label>
+          <input id="p-linkedin" name="entry.1776043644" type="url" autocomplete="url" placeholder="https://">
+        </div>
+
+        <div class="field">
+          <label for="p-access">Accessibility requirements or adjustments <span class="opt-tag">Optional</span></label>
+          <input id="p-access" name="entry.182871278" type="text">
+        </div>
+
+        <div class="field">
+          <fieldset>
+            <legend>Consent <span class="req">Required</span></legend>
+            <div class="opts">
+              <label class="opt"><input type="checkbox" name="entry.1524202413" value="I consent to my details being stored and used for hackathon organisation" required> I consent to my details being stored and used for hackathon organisation</label>
+              <label class="opt"><input type="checkbox" name="entry.1524202413" value="I'm happy to be added to the mailing list for future events (optional)"> I am happy to be added to the mailing list for future events</label>
+              <label class="opt"><input type="checkbox" name="entry.1524202413" value="I consent to photos/recordings being used for event promotion (optional)"> I consent to photos and recordings being used to promote the event</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn btn-fill" type="submit">Send my registration</button>
+          <p>Your answers go straight to the organising team.</p>
+        </div>
+      </form>
+
+      <div class="thanks" id="participant-thanks" hidden>
+        <h2>Thank you — your interest is registered</h2>
+        <p>We have your details. You will hear from us with confirmation once places are allocated.</p>
+        <p><a href="index.html">Back to the hackathon overview</a></p>
+      </div>
+    </div>
+
+    <aside class="aside">
+      <h2>Before you register</h2>
+      <p>The hackathon is open to Oxford and Harvard students of every subject — not only medics.
+      Teams are deliberately mixed.</p>
+
+      <h3>What you are signing up to</h3>
+      <ul>
+        <li>Team matching four to six weeks beforehand</li>
+        <li>A challenge statement two weeks beforehand</li>
+        <li>Two days of building and a final pitch</li>
+      </ul>
+
+      <h3>Dates</h3>
+      <p>Winter 2027. Exact dates and the venue are still to be confirmed, and we will email you as
+      soon as they are.</p>
+
+      <h3>Not the right form?</h3>
+      <p><a href="mentor.html">Judging or mentoring</a> · <a href="sponsor.html">Sponsorship</a></p>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER — duplicated on all four pages. Change one, change all four. -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <h2>Harvard <span class="x" aria-hidden="true">×</span> Oxford Hackathon</h2>
+        <p>Winter 2027. Dates and venue to be confirmed.</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <!-- CONTACT: the shared address goes here, as a mailto: link. -->
+        <p>A shared address for the hackathon is coming soon.</p>
+      </div>
+      <div>
+        <h2>Register</h2>
+        <ul>
+          <li><a href="participate.html">Interested in participating</a></li>
+          <li><a href="mentor.html">Interested in judging or mentoring</a></li>
+          <li><a href="sponsor.html">Become a sponsor</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="fine">Run by Students for Global Health Oxford and Harvard VISION Global Health
+    Society. Not an official publication of either university.</p>
+  </div>
+</footer>
+
+<script src="assets/hack.js?v=3"></script>
+</body>
+</html>
