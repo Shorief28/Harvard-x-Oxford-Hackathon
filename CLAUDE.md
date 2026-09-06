@@ -71,8 +71,7 @@ rejects the answer.
 Do not present these as facts; flag them if a task touches them.
 
 - The exact February 2027 dates and the venue — both marked "to be confirmed"
-- The sponsor wall shows AMBOSS and Oxford Global Health as names, not logos,
-  until the logo files are added to `assets/logos/`
+- Whether the sponsor wall should show tier labels beside each logo
 
 ## Checking work
 

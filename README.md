@@ -96,12 +96,8 @@ Worth running before you publish: WAVE (wave.webaim.org) and Lighthouse
       "to be confirmed" lines in the hero and the footer of all four pages
 - [ ] The participant Google Form's description still promises confirmation
       "by August 28th 2026", left over from the earlier October 2026 plan
-- [ ] **Add the two sponsor logo files.** `index.html` currently shows the
-      names as text. Put the files in `assets/logos/` and replace each
-      `<span>` in the "Our sponsors" list with
-      `<img src="assets/logos/amboss.svg" alt="AMBOSS">` and
-      `<img src="assets/logos/oxford-global-health.svg" alt="Oxford Global Health">`.
-      The tiles are white, so supply the normal full-colour logos
+- [ ] Check AMBOSS and Oxford Global Health are happy with how their logos are
+      shown, and whether either should carry a tier label
 - [ ] Delete the three rows labelled "TEST SUBMISSION - please delete" — one in
       each of the participant, judge and sponsorship response sheets
 - [ ] Switch on email notifications for all three forms (see above)

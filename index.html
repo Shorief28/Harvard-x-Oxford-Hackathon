@@ -325,12 +325,15 @@
 </section>
 
 <!-- ============ OUR SPONSORS ============ -->
-<!-- Adding a sponsor: copy one <li> below and swap the name for theirs. Put the
-     logo file in assets/logos/ and replace the <span> with
-     <img src="assets/logos/their-logo.svg" alt="Company name">. Logos sit on a
-     white tile, so supply the normal full-colour version, not a white one.
-     Keep the sponsors in tier order: gold first, then silver, bronze,
-     community, in-kind. -->
+<!-- Adding a sponsor: copy one <li> below, put their logo file in
+     assets/logos/, and point the <img> at it. Set width and height to the
+     file's real pixel size so the page does not jump about while it loads,
+     and put the organisation's name in the alt text.
+
+     Logos sit on a white tile, so supply the normal full-colour version, not
+     a white one, and trim any empty margin off the file first — otherwise the
+     logo renders smaller than the ones beside it. Keep the sponsors in tier
+     order: gold first, then silver, bronze, community, in-kind. -->
 <section id="our-sponsors">
   <div class="wrap">
     <div class="sec-head rv">
@@ -341,8 +344,8 @@
     </div>
 
     <ul class="logos rv">
-      <li><span>AMBOSS</span></li>
-      <li><span>Oxford Global Health</span></li>
+      <li><img src="assets/logos/amboss.png" alt="AMBOSS" width="900" height="143"></li>
+      <li><img src="assets/logos/oxford-global-health.png" alt="University of Oxford — Oxford Global Health" width="900" height="181"></li>
     </ul>
 
     <div class="cta-row">
