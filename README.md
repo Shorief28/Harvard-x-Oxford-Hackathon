@@ -92,14 +92,16 @@ Worth running before you publish: WAVE (wave.webaim.org) and Lighthouse
 
 ## Before it goes live
 
-- [ ] Confirm the winter 2027 dates and the venue, then replace the
+- [ ] Confirm the exact February 2027 dates and the venue, then replace the
       "to be confirmed" lines in the hero and the footer of all four pages
-- [ ] **The two older Google Forms still say 24–25 October 2026** in their
-      descriptions. The site says winter 2027. Fix the forms, or the site, so
-      they agree
-- [ ] Add the shared contact address. It goes in the block with `id="contact"`
-      on `index.html` and in the footer of all four pages, each marked with a
-      `<!-- CONTACT: -->` comment
+- [ ] The participant Google Form's description still promises confirmation
+      "by August 28th 2026", left over from the earlier October 2026 plan
+- [ ] **Add the two sponsor logo files.** `index.html` currently shows the
+      names as text. Put the files in `assets/logos/` and replace each
+      `<span>` in the "Our sponsors" list with
+      `<img src="assets/logos/amboss.svg" alt="AMBOSS">` and
+      `<img src="assets/logos/oxford-global-health.svg" alt="Oxford Global Health">`.
+      The tiles are white, so supply the normal full-colour logos
 - [ ] Delete the three rows labelled "TEST SUBMISSION - please delete" — one in
       each of the participant, judge and sponsorship response sheets
 - [ ] Switch on email notifications for all three forms (see above)

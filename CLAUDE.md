@@ -70,9 +70,9 @@ rejects the answer.
 
 Do not present these as facts; flag them if a task touches them.
 
-- The winter 2027 dates and the venue — both marked "to be confirmed"
-- The shared contact address, marked with `<!-- CONTACT: -->` comments
-- The sponsor logo wall, which currently holds "Your logo here" placeholders
+- The exact February 2027 dates and the venue — both marked "to be confirmed"
+- The sponsor wall shows AMBOSS and Oxford Global Health as names, not logos,
+  until the logo files are added to `assets/logos/`
 
 ## Checking work
 
